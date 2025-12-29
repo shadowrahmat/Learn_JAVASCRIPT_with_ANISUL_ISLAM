@@ -13,7 +13,7 @@
 
 // Phase 1
 // personal budget tracker app
-console.log("personal budget tracker app");
+// console.log("personal budget tracker app");
 // console.log("Rahmat Ullah");
 // console.log(120000);
 // console.log(5000);
@@ -69,6 +69,41 @@ console.log("personal budget tracker app");
 // let len = country.length;
 // console.log("Country total character = " + len);
 
-let text = "bangladesh";
-let total = text.charAt(2);
-document.write(total);
+// let text = "bangladesh";
+// let total = text.charAt(2);
+// document.write(total);
+
+// toUpperCase
+
+// let text = "BANGLADESH";
+// let value = text.toLowerCase(text);
+// document.write(value);
+
+// let text1 = "Bangladesh";
+// let text2 =  " is a beautiful country";
+
+// let value = text1.concat(text2);
+// document.write(value);
+
+// Task 2
+
+// let firstName = prompt("Enter Your First Name: ");
+// let lastName = prompt("Enter Your Last Name: ");
+
+// let fullName = firstName + lastName;
+// document.write(fullName + "<br>");
+
+// document.write(fullName.length + "<br>");
+// document.write(fullName.toUpperCase() + "<br>");
+// document.write(fullName.charAt(3));
+
+// PERSONAL BUDGET TRACKER PHASE 3 (VIDEO 11)
+
+const userName = "Rahmat Ullah";
+const myIncome = 12000;
+const myExpense = 5000;
+
+console.log("Personal Budget Tracker App");
+console.log('User Name: ' + userName);
+console.log('My Income: ' + myIncome);
+console.log('My Expense : ' + myExpense);
